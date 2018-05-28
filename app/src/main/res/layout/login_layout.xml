@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/corFundo"
+    android:paddingTop="120dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context="br.senac.sp.l13.segundaapp.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coneicon"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LetraFundo"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LetraFundo"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="50dp"
+        android:padding="15dp"
+        android:textSize="20dp"
+        />
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/corFonte"
+        android:text="LOGIN"
+        android:layout_marginBottom="40dp"
+        android:padding="25dp"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a member? Sign up now."
+        android:textColor="@color/LetraFundo"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
+
+

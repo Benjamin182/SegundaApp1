@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/corFundo"
+    tools:context="br.senac.sp.l13.segundaapp.LoginActivity">
+
+    <EditText
+        android:hint="Fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LetraFundo"
+        android:inputType="textAutoComplete"
+        />
+    <EditText
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LetraFundo"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LetraFundo"
+        android:inputType="textAutoComplete" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/CorButao"
+        android:textColor="@color/LetraFundo"
+        android:text="register" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already registred! Login Me."
+        android:textColor="@color/LetraFundo" />
+
+</LinearLayout>
